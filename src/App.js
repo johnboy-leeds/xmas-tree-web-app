@@ -12,7 +12,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <button disabled={isMakingRequest} onClick={() => handleButtonClick()}>demo</button>
+      
+        <iframe border={0} title="cam" src="https://johnboy-cam.ngrok.io/" height={480} width={640} />
+   
+        <button style={{ margin: 24, padding: 24 }} disabled={isMakingRequest} onClick={() => handleButtonClick()}>demo</button>
       </header>
     </div>
   );
