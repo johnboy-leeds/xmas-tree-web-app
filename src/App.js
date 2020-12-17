@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   const handleButtonClick = () => {
-    fetch('http://johnboy.ngrok.io/tree/demo', {method: 'POST'})
+    fetch('https://johnboy.ngrok.io/tree/demo', {method: 'POST'})
   }
 
   return (
