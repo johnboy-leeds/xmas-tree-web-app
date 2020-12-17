@@ -54,7 +54,7 @@ function Buttons() {
         <div style={{ 
           display: 'flex', 
           justifyContent: 'space-between', 
-          padding: 24,
+          paddingBottom: 24,
           width: 300,
           maxWidth: '80vh'
         }}>

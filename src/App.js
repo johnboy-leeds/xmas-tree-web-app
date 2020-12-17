@@ -7,10 +7,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>John's Christmas Tree</h1>
+        <p>Use the buttons below to control the tree on my desk.</p>
+        <Webcam />
         <ApiStatusCheck>
           <Buttons />
         </ApiStatusCheck>
-        <Webcam />
       </header>
     </div>
   );
