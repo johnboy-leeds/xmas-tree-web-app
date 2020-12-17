@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media only screen and (max-width: 620px) {
+  iframe {
+    transform: scale(0.75)
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  iframe {
+    transform: scale(0.5)
+  }
+}
+
+button:disabled {
+  opacity: 0.2;
+}
