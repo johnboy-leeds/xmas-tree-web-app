@@ -12,10 +12,11 @@ function Buttons() {
     'blue',
     'yellow',
     'red',
+    'green',
     'twinkle',
   ];
 
-  const bgColour = command => ['blue', 'red', 'yellow'].includes(command)  ? command : '#dedede'
+  const bgColour = command => command !== 'twinkle'  ? command : '#dedede'
   const fontColour = command => ['blue', 'red'].includes(command) ? '#fff' : '#222'
 
   return (
